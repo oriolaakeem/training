@@ -23,33 +23,43 @@
       <a href="our-blog.html">Our Blog</a>
       <a href="contact-us.html">Contact Us</a>
     </nav>
-    <br>
-    <br>
+    <br />
+    <br />
     <main>
       <form>
-        <div>
-          <label for="customer_name">Name</label>
-          <input type="text" name="customer_name" />
-        </div>
-        <div>
-          <label for="customer_email">Email</label>
-          <input type="email" name="customer_email" />
-        </div>
-
-        <div>
-          <label for="Phonenumber">Phone Number</label>
-          <input type="tel" name="Phonenumber" />
-        </div>
-        <div>
-          <label for="customer_message"> Message</label>
-          <textarea name="customer_message" cols="80" rows="20"></textarea>
-        </div>
-        <input type="submit" value="Save"/>
-
+        <fieldset>
+          <legend>Name:</legend>
+          <div>
+            <label for="customer_name">Name</label>
+            <input type="text" name="customer_name" />
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Email:</legend>
+          <div>
+            <label for="customer_email">Email</label>
+            <input type="email" name="customer_email" />
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Phonenumber:</legend>
+          <div>
+            <label for="Phonenumber">Phone Number</label>
+            <input type="tel" name="Phonenumber" />
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Message:</legend>
+          <div>
+            <label for="customer_message"> Message</label>
+            <textarea name="customer_message" cols="80" rows="20"></textarea>
+          </div>
+          <input type="submit" value="Save" />
+        </fieldset>
       </form>
     </main>
-    <br>
-    <br>
+    <br />
+    <br />
     <footer>&COPY; 2022 Chidinma Nigeria Limited.</footer>
   </body>
 </html>
