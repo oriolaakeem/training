@@ -1,38 +1,51 @@
-
 /* *{
     margin: 0;/about-us.html
     padding: 0;
 }
  */
 
- html
- {
-    font-family: monospace;
-    color: #BFEDEF;
-    background-color: #545C52;
- }
-
- p{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: justify;
- }
-
- body{
-    font-size: 16px;
-
- }
-
- nav a {
-    padding: 10px;
-    text-decoration:none;
-    
- }
- a:visited{ 
-    color: gold;
+html {
+  font-family: monospace;
+  color: #bfedef;
+  background-color: #545c52;
+  padding-bottom: 20px;
+  padding-right: 20px;
 }
 
+body {
+  font-size: 16px;
+}
 
-footer{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 90px;
+nav a {
+  padding: 10px;
+  text-decoration: none;
+}
+
+p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: justify;
+  border: 2px thick red;
+}
+
+section article p {
+
+color: rgb(50, 205, 50);
+}
+
+section p {
+
+    color: pink;
+    }
+
+a:visited {
+  color: gold;
+}
+
+footer {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 90px;
+}
+
+.ninja {
+  background-color: blue;
 }
