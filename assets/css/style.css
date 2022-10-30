@@ -1,0 +1,38 @@
+
+/* *{
+    margin: 0;/about-us.html
+    padding: 0;
+}
+ */
+
+ html
+ {
+    font-family: monospace;
+    color: #BFEDEF;
+    background-color: #545C52;
+ }
+
+ p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+ }
+
+ body{
+    font-size: 16px;
+
+ }
+
+ nav a {
+    padding: 10px;
+    text-decoration:none;
+    
+ }
+ a:visited{ 
+    color: gold;
+}
+
+
+footer{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 90px;
+}
